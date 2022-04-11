@@ -14,3 +14,6 @@
 
 [Tableau Report Rockbuster Movie Rentals](https://public.tableau.com/views/exercise3_10V2/Story1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
+[Data Dictionary V2.pdf](https://github.com/CinZane/Databases-SQL-for-Analysts/files/8462429/Data.Dictionary.V2.pdf)
+
+[Exercise-3.10excel-V1--2-.xlsx](https://github.com/CinZane/Databases-SQL-for-Analysts/files/8462443/Exercise-3.10excel-V1--2-.xlsx)
