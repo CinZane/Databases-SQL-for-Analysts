@@ -1,0 +1,13 @@
+# Created SQL Query for Customers of certain Groups
+
+SELECT  MODE () WITHIN GROUP ( ORDER BY customer_id) AS mode_customer_id								
+		MODE () WITHIN GROUP ( ORDER BY store_id) AS mode_store_id						
+ 		MODE () WITHIN GROUP ( ORDER BY first_name) AS mode_first_name						
+		MODE () WITHIN GROUP ( ORDER BY last_name) AS mode_last_name						
+ 		MODE () WITHIN GROUP ( ORDER BY email) AS mode_email						
+ 		MODE () WITHIN GROUP ( ORDER BY address_id) AS mode_address_id						
+ 		MODE () WITHIN GROUP ( ORDER BY activebool) AS mode_activebool						
+		MODE () WITHIN GROUP ( ORDER BY create_date) AS mode_create_date						
+		MODE () WITHIN GROUP ( ORDER BY last_update) AS mode_last_date						
+ 		MODE () WITHIN GROUP ( ORDER BY active) AS mode_active						
+FROM customer								
