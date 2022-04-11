@@ -1,0 +1,13 @@
+# Based on the Top Countries/Cities, we also identified the Top 5 Customers with a Query based on payment History
+
+SELECT E.country, D.city, A.customer_ID, B.first_name, B.last_name,
+SUM(amount) AS highest_total_payment
+FROM payment A
+INNER JOIN customer B ON A. customer_id = B. customer_id
+INNER JOIN address C ON B. address_id = C. address_id
+INNER JOIN city D ON C. city_id = D. city_id
+INNER JOIN country E ON D. country_id = E. country_id
+WHERE E. country IN ('India', 'China', 'United States', 'Japan', 'Mexico', 'Brazil', 'Russian Federation','Philippines', 'Turkey', 'Indonesia') AND D. city IN ('Aurora', 'Atlixco', 'Xintai', 'Adoni', 'Dhule(Dhulia)','Kurashiki', 'Pingxiang', 'Sivas', 'Celaya', 'So Leopoldo')
+GROUP BY A. customer_id, E.country, D.city, B.last_name, B.first_name
+ORDER BY highest_total_payment DESC
+LIMIT 5
