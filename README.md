@@ -1,4 +1,4 @@
-# Achievement 3 Databases & SQL for Analysts Careerfoundry
+# Databases & SQL for Analysts Careerfoundry Data Immersion Course
 
 In this Project for the Data Analyst Immersion Course from Careerfoundry, i started to use and implement Databases & SQL. 
 I have been tasked to develop a Launch Strategie as a Streaming Service for a fictive Movie Rental Company that was facing Stiff Competition from Services such as Netflix or Amazon Prime.
